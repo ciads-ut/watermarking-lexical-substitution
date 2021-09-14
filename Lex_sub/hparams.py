@@ -1,0 +1,22 @@
+import sys
+
+# TYPE='ema'
+# TYPE='frozen'
+TYPE='normal'
+
+GUMBEL_TAU = .5
+DECAY = 0.999975
+
+DISC_LEARNING_RATE = 1e-5
+GEN_LEARNING_RATE = 2e-6
+
+USE_HARDWARE = True
+DATA_WORKERS = 8
+
+BATCH_SIZE = 32
+MAX_EPOCHS = 30
+CASES = sys.maxsize
+
+MAX_LENGTH = 30
+
+seed = 3
